@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8146896724B603B3006AE909 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8146895324B603B2006AE909 /* MainView.swift */; };
+		8146896824B603B3006AE909 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8146895324B603B2006AE909 /* MainView.swift */; };
+		8146896924B603B3006AE909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8146895424B603B3006AE909 /* Assets.xcassets */; };
+		8146896A24B603B3006AE909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8146895424B603B3006AE909 /* Assets.xcassets */; };
+		81C248F424B6048C00DD9056 /* DodoAirlinesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C248F324B6048B00DD9056 /* DodoAirlinesApp.swift */; };
+		81C248F524B6048C00DD9056 /* DodoAirlinesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C248F324B6048B00DD9056 /* DodoAirlinesApp.swift */; };
+		81C248FA24B605AF00DD9056 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C248F924B605AF00DD9056 /* CheckInView.swift */; };
+		81C248FB24B605AF00DD9056 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C248F924B605AF00DD9056 /* CheckInView.swift */; };
+		81C248FE24B6062200DD9056 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C248FD24B6062200DD9056 /* Flight.swift */; };
+		81C248FF24B6062200DD9056 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C248FD24B6062200DD9056 /* Flight.swift */; };
+		81C2491924B61ABA00DD9056 /* CheckInDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C2491824B61ABA00DD9056 /* CheckInDetailView.swift */; };
+		81C2491A24B61ABA00DD9056 /* CheckInDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C2491824B61ABA00DD9056 /* CheckInDetailView.swift */; };
+		81CC12A824B749B200A7C5DA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC12A724B749B200A7C5DA /* CustomButton.swift */; };
+		81E5AF3924B8687000326F33 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E5AF3824B8687000326F33 /* BookingView.swift */; };
+		81E5AF3B24B87FD400326F33 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E5AF3A24B87FD400326F33 /* ProfileView.swift */; };
+		81E5AF3D24B880A300326F33 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E5AF3C24B880A300326F33 /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81C2491724B6068B00DD9056 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8146895324B603B2006AE909 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8146895424B603B3006AE909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8146895924B603B3006AE909 /* DodoAirlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DodoAirlines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8146895C24B603B3006AE909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8146896124B603B3006AE909 /* DodoAirlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DodoAirlines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8146896324B603B3006AE909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8146896424B603B3006AE909 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		81C248F324B6048B00DD9056 /* DodoAirlinesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DodoAirlinesApp.swift; sourceTree = "<group>"; };
+		81C248F924B605AF00DD9056 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+		81C248FD24B6062200DD9056 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		81C2491824B61ABA00DD9056 /* CheckInDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInDetailView.swift; sourceTree = "<group>"; };
+		81CC12A724B749B200A7C5DA /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		81E5AF3824B8687000326F33 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		81E5AF3A24B87FD400326F33 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		81E5AF3C24B880A300326F33 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8146895624B603B3006AE909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8146895E24B603B3006AE909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8146894C24B603B2006AE909 = {
+			isa = PBXGroup;
+			children = (
+				8146895124B603B2006AE909 /* Shared */,
+				8146895B24B603B3006AE909 /* iOS */,
+				8146896224B603B3006AE909 /* macOS */,
+				8146895A24B603B3006AE909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8146895124B603B2006AE909 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				81C248F324B6048B00DD9056 /* DodoAirlinesApp.swift */,
+				8146895324B603B2006AE909 /* MainView.swift */,
+				81CC12A624B749A200A7C5DA /* Views */,
+				81C248FC24B6060200DD9056 /* Entities */,
+				81C248F724B6056600DD9056 /* CKI */,
+				81C248F624B6055800DD9056 /* BK */,
+				81C248F824B6057100DD9056 /* Profile */,
+				8146895424B603B3006AE909 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8146895A24B603B3006AE909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8146895924B603B3006AE909 /* DodoAirlines.app */,
+				8146896124B603B3006AE909 /* DodoAirlines.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8146895B24B603B3006AE909 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8146895C24B603B3006AE909 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8146896224B603B3006AE909 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8146896324B603B3006AE909 /* Info.plist */,
+				8146896424B603B3006AE909 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		81C248F624B6055800DD9056 /* BK */ = {
+			isa = PBXGroup;
+			children = (
+				81E5AF3824B8687000326F33 /* BookingView.swift */,
+			);
+			path = BK;
+			sourceTree = "<group>";
+		};
+		81C248F724B6056600DD9056 /* CKI */ = {
+			isa = PBXGroup;
+			children = (
+				81C248F924B605AF00DD9056 /* CheckInView.swift */,
+				81C2491824B61ABA00DD9056 /* CheckInDetailView.swift */,
+			);
+			path = CKI;
+			sourceTree = "<group>";
+		};
+		81C248F824B6057100DD9056 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				81E5AF3A24B87FD400326F33 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		81C248FC24B6060200DD9056 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				81C248FD24B6062200DD9056 /* Flight.swift */,
+				81E5AF3C24B880A300326F33 /* User.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		81CC12A624B749A200A7C5DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81CC12A724B749B200A7C5DA /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8146895824B603B3006AE909 /* DodoAirlines (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8146896D24B603B3006AE909 /* Build configuration list for PBXNativeTarget "DodoAirlines (iOS)" */;
+			buildPhases = (
+				8146895524B603B3006AE909 /* Sources */,
+				8146895624B603B3006AE909 /* Frameworks */,
+				8146895724B603B3006AE909 /* Resources */,
+				81C2491724B6068B00DD9056 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DodoAirlines (iOS)";
+			productName = "dodoairlines (iOS)";
+			productReference = 8146895924B603B3006AE909 /* DodoAirlines.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8146896024B603B3006AE909 /* DodoAirlines (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8146897024B603B3006AE909 /* Build configuration list for PBXNativeTarget "DodoAirlines (macOS)" */;
+			buildPhases = (
+				8146895D24B603B3006AE909 /* Sources */,
+				8146895E24B603B3006AE909 /* Frameworks */,
+				8146895F24B603B3006AE909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DodoAirlines (macOS)";
+			productName = "dodoairlines (macOS)";
+			productReference = 8146896124B603B3006AE909 /* DodoAirlines.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8146894D24B603B2006AE909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8146895824B603B3006AE909 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					8146896024B603B3006AE909 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 8146895024B603B2006AE909 /* Build configuration list for PBXProject "DodoAirlines" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8146894C24B603B2006AE909;
+			productRefGroup = 8146895A24B603B3006AE909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8146895824B603B3006AE909 /* DodoAirlines (iOS) */,
+				8146896024B603B3006AE909 /* DodoAirlines (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8146895724B603B3006AE909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8146896924B603B3006AE909 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8146895F24B603B3006AE909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8146896A24B603B3006AE909 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8146895524B603B3006AE909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E5AF3B24B87FD400326F33 /* ProfileView.swift in Sources */,
+				81C2491924B61ABA00DD9056 /* CheckInDetailView.swift in Sources */,
+				81C248F424B6048C00DD9056 /* DodoAirlinesApp.swift in Sources */,
+				81E5AF3924B8687000326F33 /* BookingView.swift in Sources */,
+				81CC12A824B749B200A7C5DA /* CustomButton.swift in Sources */,
+				81E5AF3D24B880A300326F33 /* User.swift in Sources */,
+				81C248FE24B6062200DD9056 /* Flight.swift in Sources */,
+				8146896724B603B3006AE909 /* MainView.swift in Sources */,
+				81C248FA24B605AF00DD9056 /* CheckInView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8146895D24B603B3006AE909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C2491A24B61ABA00DD9056 /* CheckInDetailView.swift in Sources */,
+				81C248F524B6048C00DD9056 /* DodoAirlinesApp.swift in Sources */,
+				81C248FF24B6062200DD9056 /* Flight.swift in Sources */,
+				8146896824B603B3006AE909 /* MainView.swift in Sources */,
+				81C248FB24B605AF00DD9056 /* CheckInView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8146896B24B603B3006AE909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8146896C24B603B3006AE909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8146896E24B603B3006AE909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.autentia.dodoairlines;
+				PRODUCT_NAME = DodoAirlines;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8146896F24B603B3006AE909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.autentia.dodoairlines;
+				PRODUCT_NAME = DodoAirlines;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8146897124B603B3006AE909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autentia.dodoairlines;
+				PRODUCT_NAME = DodoAirlines;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8146897224B603B3006AE909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autentia.dodoairlines;
+				PRODUCT_NAME = DodoAirlines;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8146895024B603B2006AE909 /* Build configuration list for PBXProject "DodoAirlines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8146896B24B603B3006AE909 /* Debug */,
+				8146896C24B603B3006AE909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8146896D24B603B3006AE909 /* Build configuration list for PBXNativeTarget "DodoAirlines (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8146896E24B603B3006AE909 /* Debug */,
+				8146896F24B603B3006AE909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8146897024B603B3006AE909 /* Build configuration list for PBXNativeTarget "DodoAirlines (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8146897124B603B3006AE909 /* Debug */,
+				8146897224B603B3006AE909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8146894D24B603B2006AE909 /* Project object */;
+}
