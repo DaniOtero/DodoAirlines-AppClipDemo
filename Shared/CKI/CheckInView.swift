@@ -106,7 +106,7 @@ struct CheckInView: View {
     }
     
     #if !APPCLIP
-    private func checkinDetailView() -> some View {
+    var checkinDetailView: some View {
         let flight = Flight(origin: "MAD",
                             dest: "NRT",
                             date: Date(),

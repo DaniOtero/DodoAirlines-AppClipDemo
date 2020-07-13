@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		812AAF2A24BC5C7400B7F5F9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E5AF3C24B880A300326F33 /* User.swift */; };
+		812AAF2B24BC626A00B7F5F9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC12A724B749B200A7C5DA /* CustomButton.swift */; };
 		8146896724B603B3006AE909 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8146895324B603B2006AE909 /* MainView.swift */; };
 		8146896824B603B3006AE909 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8146895324B603B2006AE909 /* MainView.swift */; };
 		8146896924B603B3006AE909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8146895424B603B3006AE909 /* Assets.xcassets */; };
 		8146896A24B603B3006AE909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8146895424B603B3006AE909 /* Assets.xcassets */; };
-		815D61D424B8888D00CA0D5D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E5AF3C24B880A300326F33 /* User.swift */; };
 		815D61D624B8888D00CA0D5D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC12A724B749B200A7C5DA /* CustomButton.swift */; };
 		815D61D824B8888D00CA0D5D /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C248FD24B6062200DD9056 /* Flight.swift */; };
 		815D61D924B8888D00CA0D5D /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C248F924B605AF00DD9056 /* CheckInView.swift */; };
@@ -369,7 +370,9 @@
 			files = (
 				81C2491A24B61ABA00DD9056 /* CheckInDetailView.swift in Sources */,
 				81C248F524B6048C00DD9056 /* DodoAirlinesApp.swift in Sources */,
+				812AAF2A24BC5C7400B7F5F9 /* User.swift in Sources */,
 				81C248FF24B6062200DD9056 /* Flight.swift in Sources */,
+				812AAF2B24BC626A00B7F5F9 /* CustomButton.swift in Sources */,
 				8146896824B603B3006AE909 /* MainView.swift in Sources */,
 				81C248FB24B605AF00DD9056 /* CheckInView.swift in Sources */,
 			);
@@ -382,7 +385,6 @@
 				81E5AF4724B8869B00326F33 /* MainView.swift in Sources */,
 				81E5AF4524B8869A00326F33 /* DodoAirlinesClipApp.swift in Sources */,
 				815D61D924B8888D00CA0D5D /* CheckInView.swift in Sources */,
-				815D61D424B8888D00CA0D5D /* User.swift in Sources */,
 				815D61D624B8888D00CA0D5D /* CustomButton.swift in Sources */,
 				815D61D824B8888D00CA0D5D /* Flight.swift in Sources */,
 			);
