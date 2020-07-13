@@ -11,6 +11,11 @@
 		8146896824B603B3006AE909 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8146895324B603B2006AE909 /* MainView.swift */; };
 		8146896924B603B3006AE909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8146895424B603B3006AE909 /* Assets.xcassets */; };
 		8146896A24B603B3006AE909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8146895424B603B3006AE909 /* Assets.xcassets */; };
+		815D61D424B8888D00CA0D5D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E5AF3C24B880A300326F33 /* User.swift */; };
+		815D61D624B8888D00CA0D5D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC12A724B749B200A7C5DA /* CustomButton.swift */; };
+		815D61D824B8888D00CA0D5D /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C248FD24B6062200DD9056 /* Flight.swift */; };
+		815D61D924B8888D00CA0D5D /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C248F924B605AF00DD9056 /* CheckInView.swift */; };
+		815D61DA24B8892600CA0D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8146895424B603B3006AE909 /* Assets.xcassets */; };
 		81C248F424B6048C00DD9056 /* DodoAirlinesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C248F324B6048B00DD9056 /* DodoAirlinesApp.swift */; };
 		81C248F524B6048C00DD9056 /* DodoAirlinesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C248F324B6048B00DD9056 /* DodoAirlinesApp.swift */; };
 		81C248FA24B605AF00DD9056 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C248F924B605AF00DD9056 /* CheckInView.swift */; };
@@ -23,7 +28,21 @@
 		81E5AF3924B8687000326F33 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E5AF3824B8687000326F33 /* BookingView.swift */; };
 		81E5AF3B24B87FD400326F33 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E5AF3A24B87FD400326F33 /* ProfileView.swift */; };
 		81E5AF3D24B880A300326F33 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E5AF3C24B880A300326F33 /* User.swift */; };
+		81E5AF4524B8869A00326F33 /* DodoAirlinesClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E5AF4424B8869A00326F33 /* DodoAirlinesClipApp.swift */; };
+		81E5AF4724B8869B00326F33 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E5AF4624B8869B00326F33 /* MainView.swift */; };
+		81E5AF4C24B8869B00326F33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E5AF4B24B8869B00326F33 /* Preview Assets.xcassets */; };
+		81E5AF5124B8869B00326F33 /* DodoAirlinesClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 81E5AF4224B8869A00326F33 /* DodoAirlinesClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81E5AF4F24B8869B00326F33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8146894D24B603B2006AE909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81E5AF4124B8869A00326F33;
+			remoteInfo = DodoAirlinesClip;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		81C2491724B6068B00DD9056 /* Embed App Clips */ = {
@@ -32,6 +51,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
 			dstSubfolderSpec = 16;
 			files = (
+				81E5AF5124B8869B00326F33 /* DodoAirlinesClip.app in Embed App Clips */,
 			);
 			name = "Embed App Clips";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,6 +74,12 @@
 		81E5AF3824B8687000326F33 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 		81E5AF3A24B87FD400326F33 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		81E5AF3C24B880A300326F33 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		81E5AF4224B8869A00326F33 /* DodoAirlinesClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DodoAirlinesClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E5AF4424B8869A00326F33 /* DodoAirlinesClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodoAirlinesClipApp.swift; sourceTree = "<group>"; };
+		81E5AF4624B8869B00326F33 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		81E5AF4B24B8869B00326F33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81E5AF4D24B8869B00326F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E5AF4E24B8869B00326F33 /* DodoAirlinesClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DodoAirlinesClip.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +97,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81E5AF3F24B8869A00326F33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +113,7 @@
 				8146895124B603B2006AE909 /* Shared */,
 				8146895B24B603B3006AE909 /* iOS */,
 				8146896224B603B3006AE909 /* macOS */,
+				81E5AF4324B8869A00326F33 /* DodoAirlinesClip */,
 				8146895A24B603B3006AE909 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +138,7 @@
 			children = (
 				8146895924B603B3006AE909 /* DodoAirlines.app */,
 				8146896124B603B3006AE909 /* DodoAirlines.app */,
+				81E5AF4224B8869A00326F33 /* DodoAirlinesClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,6 +202,26 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		81E5AF4324B8869A00326F33 /* DodoAirlinesClip */ = {
+			isa = PBXGroup;
+			children = (
+				81E5AF4424B8869A00326F33 /* DodoAirlinesClipApp.swift */,
+				81E5AF4624B8869B00326F33 /* MainView.swift */,
+				81E5AF4D24B8869B00326F33 /* Info.plist */,
+				81E5AF4E24B8869B00326F33 /* DodoAirlinesClip.entitlements */,
+				81E5AF4A24B8869B00326F33 /* Preview Content */,
+			);
+			path = DodoAirlinesClip;
+			sourceTree = "<group>";
+		};
+		81E5AF4A24B8869B00326F33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81E5AF4B24B8869B00326F33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,6 +237,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				81E5AF5024B8869B00326F33 /* PBXTargetDependency */,
 			);
 			name = "DodoAirlines (iOS)";
 			productName = "dodoairlines (iOS)";
@@ -205,6 +261,23 @@
 			productReference = 8146896124B603B3006AE909 /* DodoAirlines.app */;
 			productType = "com.apple.product-type.application";
 		};
+		81E5AF4124B8869A00326F33 /* DodoAirlinesClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E5AF5224B8869B00326F33 /* Build configuration list for PBXNativeTarget "DodoAirlinesClip" */;
+			buildPhases = (
+				81E5AF3E24B8869A00326F33 /* Sources */,
+				81E5AF3F24B8869A00326F33 /* Frameworks */,
+				81E5AF4024B8869A00326F33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DodoAirlinesClip;
+			productName = DodoAirlinesClip;
+			productReference = 81E5AF4224B8869A00326F33 /* DodoAirlinesClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -218,6 +291,9 @@
 						CreatedOnToolsVersion = 12.0;
 					};
 					8146896024B603B3006AE909 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					81E5AF4124B8869A00326F33 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -237,6 +313,7 @@
 			targets = (
 				8146895824B603B3006AE909 /* DodoAirlines (iOS) */,
 				8146896024B603B3006AE909 /* DodoAirlines (macOS) */,
+				81E5AF4124B8869A00326F33 /* DodoAirlinesClip */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +332,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8146896A24B603B3006AE909 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E5AF4024B8869A00326F33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E5AF4C24B8869B00326F33 /* Preview Assets.xcassets in Resources */,
+				815D61DA24B8892600CA0D5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +375,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81E5AF3E24B8869A00326F33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E5AF4724B8869B00326F33 /* MainView.swift in Sources */,
+				81E5AF4524B8869A00326F33 /* DodoAirlinesClipApp.swift in Sources */,
+				815D61D924B8888D00CA0D5D /* CheckInView.swift in Sources */,
+				815D61D424B8888D00CA0D5D /* User.swift in Sources */,
+				815D61D624B8888D00CA0D5D /* CustomButton.swift in Sources */,
+				815D61D824B8888D00CA0D5D /* Flight.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81E5AF5024B8869B00326F33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81E5AF4124B8869A00326F33 /* DodoAirlinesClip */;
+			targetProxy = 81E5AF4F24B8869B00326F33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8146896B24B603B3006AE909 /* Debug */ = {
@@ -492,6 +599,55 @@
 			};
 			name = Release;
 		};
+		81E5AF5324B8869B00326F33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DodoAirlinesClip/DodoAirlinesClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DodoAirlinesClip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DodoAirlinesClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.autentia.dodoairlines.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG APPCLIP";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81E5AF5424B8869B00326F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DodoAirlinesClip/DodoAirlinesClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DodoAirlinesClip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DodoAirlinesClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.autentia.dodoairlines.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPCLIP;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -518,6 +674,15 @@
 			buildConfigurations = (
 				8146897124B603B3006AE909 /* Debug */,
 				8146897224B603B3006AE909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E5AF5224B8869B00326F33 /* Build configuration list for PBXNativeTarget "DodoAirlinesClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E5AF5324B8869B00326F33 /* Debug */,
+				81E5AF5424B8869B00326F33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
