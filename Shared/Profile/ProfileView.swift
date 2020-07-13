@@ -22,27 +22,29 @@ struct ProfileView: View {
     }
     
     var body: some View {
-        VStack {
-            Image("logo")
+        NavigationView {
             VStack {
-                Text("\(user.name) \(user.surname)")
-                    .font(.title)
-                Text("Level")
-                Image(systemName: "star.fill")
-                    .resizable()
-                    .frame(width: 44, height: 44)
-                    .foregroundColor(colorForUserLevel)
-                Text("You have \(user.NookMiles) Nook miles!")
+                Image("logo")
+                VStack {
+                    Text("\(user.name) \(user.surname)")
+                        .font(.title)
+                    Text("Level")
+                    Image(systemName: "star.fill")
+                        .resizable()
+                        .frame(width: 44, height: 44)
+                        .foregroundColor(colorForUserLevel)
+                    Text("You have \(user.NookMiles) Nook miles!")
+                }
+                .frame(maxWidth: .infinity)
+                .padding(.all, 16)
+                .background(Color("Box"))
+                .cornerRadius(16.0)
+                Spacer()
             }
             .frame(maxWidth: .infinity)
             .padding(.all, 16)
-            .background(Color("Box"))
-            .cornerRadius(16.0)
-            Spacer()
+            .background(Color("Background").edgesIgnoringSafeArea(.all))
         }
-        .frame(maxWidth: .infinity)
-        .padding(.all, 16)
-        .background(Color("Background").edgesIgnoringSafeArea(.all))
         
     }
 }

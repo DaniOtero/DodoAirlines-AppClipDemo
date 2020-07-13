@@ -63,7 +63,7 @@ struct CheckInView: View {
                 }
                 #else
                 NavigationLink(
-                    destination: checkinDetailView(),
+                    destination: checkinDetailView,
                     isActive: $showDetail,
                     label: {
                         CustomButton(action: checkIn) {
